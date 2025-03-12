@@ -1,0 +1,190 @@
+12 Mar 2024 11:30:36,504 INFO  ro.mpp2024.CarsDBRepository 19 <init> - Initializing ro.mpp2024.CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:UsersgeorgOneDriveDesktopMPPcars.db}
+12 Mar 2024 11:30:36,517 TRACE ro.mpp2024.CarsDBRepository 80 add - Enter saving task Id=0 Tesla Model S 2019
+12 Mar 2024 11:30:36,518 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:30:36,518 TRACE JdbcUtils 23 getNewConnection - Enter
+12 Mar 2024 11:30:36,518 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:UsersgeorgOneDriveDesktopMPPcars.db
+12 Mar 2024 11:30:36,519 INFO  JdbcUtils 29 getNewConnection - user: null
+12 Mar 2024 11:30:36,519 INFO  JdbcUtils 30 getNewConnection - pass: null
+12 Mar 2024 11:30:37,036 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:30:37,041 ERROR ro.mpp2024.CarsDBRepository 89 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+12 Mar 2024 11:30:37,042 TRACE ro.mpp2024.CarsDBRepository 92 add - Exit
+12 Mar 2024 11:30:37,042 TRACE ro.mpp2024.CarsDBRepository 102 findAll - Enter
+12 Mar 2024 11:30:37,042 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:30:37,042 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:30:37,044 ERROR ro.mpp2024.CarsDBRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+12 Mar 2024 11:30:37,044 TRACE ro.mpp2024.CarsDBRepository 121 findAll - Exit with([])
+12 Mar 2024 11:30:37,045 TRACE ro.mpp2024.CarsDBRepository 25 findByManufacturer - Enter Finding cars by manufacturer: Tesla
+12 Mar 2024 11:30:37,045 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:30:37,045 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:30:37,046 ERROR ro.mpp2024.CarsDBRepository 42 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+12 Mar 2024 11:30:37,046 TRACE ro.mpp2024.CarsDBRepository 45 findByManufacturer - Exit with([])
+12 Mar 2024 11:35:25,023 INFO  ro.mpp2024.CarsDBRepository 19 <init> - Initializing ro.mpp2024.CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:UsersgeorgOneDriveDesktopMPPcars.db}
+12 Mar 2024 11:35:25,036 TRACE ro.mpp2024.CarsDBRepository 80 add - Enter saving task Id=0 Tesla Model S 2019
+12 Mar 2024 11:35:25,037 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:35:25,037 TRACE JdbcUtils 23 getNewConnection - Enter
+12 Mar 2024 11:35:25,037 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:UsersgeorgOneDriveDesktopMPPcars.db
+12 Mar 2024 11:35:25,038 INFO  JdbcUtils 29 getNewConnection - user: null
+12 Mar 2024 11:35:25,038 INFO  JdbcUtils 30 getNewConnection - pass: null
+12 Mar 2024 11:35:25,285 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:35:25,291 ERROR ro.mpp2024.CarsDBRepository 89 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+12 Mar 2024 11:35:25,292 TRACE ro.mpp2024.CarsDBRepository 92 add - Exit
+12 Mar 2024 11:35:25,292 TRACE ro.mpp2024.CarsDBRepository 102 findAll - Enter
+12 Mar 2024 11:35:25,292 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:35:25,292 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:35:25,293 ERROR ro.mpp2024.CarsDBRepository 118 findAll - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+12 Mar 2024 11:35:25,293 TRACE ro.mpp2024.CarsDBRepository 121 findAll - Exit with([])
+12 Mar 2024 11:35:25,294 TRACE ro.mpp2024.CarsDBRepository 25 findByManufacturer - Enter Finding cars by manufacturer: Tesla
+12 Mar 2024 11:35:25,294 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:35:25,294 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:35:25,295 ERROR ro.mpp2024.CarsDBRepository 42 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+12 Mar 2024 11:35:25,295 TRACE ro.mpp2024.CarsDBRepository 45 findByManufacturer - Exit with([])
+12 Mar 2024 11:47:39,836 INFO  CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db} 
+12 Mar 2024 11:47:39,853 TRACE CarsDBRepository 80 add - Enter saving task Id=0 Tesla Model S 2019
+12 Mar 2024 11:47:39,853 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:47:39,854 TRACE JdbcUtils 23 getNewConnection - Enter
+12 Mar 2024 11:47:39,854 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db
+12 Mar 2024 11:47:39,855 INFO  JdbcUtils 29 getNewConnection - user: null
+12 Mar 2024 11:47:39,855 INFO  JdbcUtils 30 getNewConnection - pass: null
+12 Mar 2024 11:47:40,147 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:47:40,154 ERROR CarsDBRepository 89 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table cars has no column named manufacturer)
+12 Mar 2024 11:47:40,155 TRACE CarsDBRepository 92 add - Exit
+12 Mar 2024 11:47:40,156 TRACE CarsDBRepository 102 findAll - Enter
+12 Mar 2024 11:47:40,156 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:47:40,157 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:47:40,158 ERROR CarsDBRepository 118 findAll - java.sql.SQLException: no such column: 'manufacturer'
+12 Mar 2024 11:47:40,158 TRACE CarsDBRepository 121 findAll - Exit with([])
+12 Mar 2024 11:47:40,159 TRACE CarsDBRepository 25 findByManufacturer - Enter Finding cars by manufacturer: Tesla
+12 Mar 2024 11:47:40,159 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:47:40,159 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:47:40,160 ERROR CarsDBRepository 42 findByManufacturer - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: manufacturer)
+12 Mar 2024 11:47:40,161 TRACE CarsDBRepository 45 findByManufacturer - Exit with([])
+12 Mar 2024 11:49:17,865 INFO  CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db} 
+12 Mar 2024 11:49:17,884 TRACE CarsDBRepository 80 add - Enter saving task Id=0 Tesla Model S 2019
+12 Mar 2024 11:49:17,884 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:49:17,884 TRACE JdbcUtils 23 getNewConnection - Enter
+12 Mar 2024 11:49:17,885 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db
+12 Mar 2024 11:49:17,885 INFO  JdbcUtils 29 getNewConnection - user: null
+12 Mar 2024 11:49:17,885 INFO  JdbcUtils 30 getNewConnection - pass: null
+12 Mar 2024 11:49:18,155 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:49:18,163 ERROR CarsDBRepository 89 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table cars has no column named manufacturer)
+12 Mar 2024 11:49:18,164 TRACE CarsDBRepository 92 add - Exit
+12 Mar 2024 11:49:18,164 TRACE CarsDBRepository 102 findAll - Enter
+12 Mar 2024 11:49:18,164 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:49:18,165 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:49:18,166 ERROR CarsDBRepository 118 findAll - java.sql.SQLException: no such column: 'manufacturer'
+12 Mar 2024 11:49:18,166 TRACE CarsDBRepository 121 findAll - Exit with([])
+12 Mar 2024 11:49:18,167 TRACE CarsDBRepository 25 findByManufacturer - Enter Finding cars by manufacturer: Tesla
+12 Mar 2024 11:49:18,167 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:49:18,167 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:49:18,168 TRACE CarsDBRepository 45 findByManufacturer - Exit with([])
+12 Mar 2024 11:50:22,597 INFO  CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db} 
+12 Mar 2024 11:50:22,615 TRACE CarsDBRepository 80 add - Enter saving task Id=0 Tesla Model S 2019
+12 Mar 2024 11:50:22,616 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:22,616 TRACE JdbcUtils 23 getNewConnection - Enter
+12 Mar 2024 11:50:22,617 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db
+12 Mar 2024 11:50:22,617 INFO  JdbcUtils 29 getNewConnection - user: null
+12 Mar 2024 11:50:22,618 INFO  JdbcUtils 30 getNewConnection - pass: null
+12 Mar 2024 11:50:22,887 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:22,894 ERROR CarsDBRepository 89 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table cars has no column named manufacturer)
+12 Mar 2024 11:50:22,894 TRACE CarsDBRepository 92 add - Exit
+12 Mar 2024 11:50:22,895 TRACE CarsDBRepository 102 findAll - Enter
+12 Mar 2024 11:50:22,895 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:22,895 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:22,896 ERROR CarsDBRepository 118 findAll - java.sql.SQLException: no such column: 'manufacturer'
+12 Mar 2024 11:50:22,897 TRACE CarsDBRepository 121 findAll - Exit with([])
+12 Mar 2024 11:50:22,898 TRACE CarsDBRepository 25 findByManufacturer - Enter Finding cars by manufactured: Tesla
+12 Mar 2024 11:50:22,898 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:22,898 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:22,900 TRACE CarsDBRepository 45 findByManufacturer - Exit with([])
+12 Mar 2024 11:50:37,555 INFO  CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db} 
+12 Mar 2024 11:50:37,569 TRACE CarsDBRepository 80 add - Enter saving task Id=0 Tesla Model S 2019
+12 Mar 2024 11:50:37,570 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:37,570 TRACE JdbcUtils 23 getNewConnection - Enter
+12 Mar 2024 11:50:37,571 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db
+12 Mar 2024 11:50:37,571 INFO  JdbcUtils 29 getNewConnection - user: null
+12 Mar 2024 11:50:37,572 INFO  JdbcUtils 30 getNewConnection - pass: null
+12 Mar 2024 11:50:37,866 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:37,873 ERROR CarsDBRepository 89 add - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table cars has no column named manufacturer)
+12 Mar 2024 11:50:37,874 TRACE CarsDBRepository 92 add - Exit
+12 Mar 2024 11:50:37,874 TRACE CarsDBRepository 102 findAll - Enter
+12 Mar 2024 11:50:37,875 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:37,875 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:37,876 ERROR CarsDBRepository 118 findAll - java.sql.SQLException: no such column: 'manufacturer'
+12 Mar 2024 11:50:37,876 TRACE CarsDBRepository 121 findAll - Exit with([])
+12 Mar 2024 11:50:37,877 TRACE CarsDBRepository 25 findByManufacturer - Enter Finding cars by manufactured: Tesla
+12 Mar 2024 11:50:37,877 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:37,877 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:37,878 TRACE CarsDBRepository 45 findByManufacturer - Exit with([])
+12 Mar 2024 11:50:47,995 INFO  CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db} 
+12 Mar 2024 11:50:48,013 TRACE CarsDBRepository 80 add - Enter saving task Id=0 Tesla Model S 2019
+12 Mar 2024 11:50:48,014 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:48,014 TRACE JdbcUtils 23 getNewConnection - Enter
+12 Mar 2024 11:50:48,014 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db
+12 Mar 2024 11:50:48,015 INFO  JdbcUtils 29 getNewConnection - user: null
+12 Mar 2024 11:50:48,015 INFO  JdbcUtils 30 getNewConnection - pass: null
+12 Mar 2024 11:50:48,323 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:48,343 TRACE CarsDBRepository 87 add - Saved 1 instances
+12 Mar 2024 11:50:48,344 TRACE CarsDBRepository 92 add - Exit
+12 Mar 2024 11:50:48,345 TRACE CarsDBRepository 102 findAll - Enter
+12 Mar 2024 11:50:48,346 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:48,346 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:48,349 ERROR CarsDBRepository 118 findAll - java.sql.SQLException: no such column: 'manufacturer'
+12 Mar 2024 11:50:48,350 TRACE CarsDBRepository 121 findAll - Exit with([])
+12 Mar 2024 11:50:48,351 TRACE CarsDBRepository 25 findByManufacturer - Enter Finding cars by manufactured: Tesla
+12 Mar 2024 11:50:48,351 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:48,351 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:48,352 TRACE CarsDBRepository 45 findByManufacturer - Exit with([Id=3 Tesla Model S 2019])
+12 Mar 2024 11:50:58,894 INFO  CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db} 
+12 Mar 2024 11:50:58,910 TRACE CarsDBRepository 80 add - Enter saving task Id=0 Tesla Model S 2019
+12 Mar 2024 11:50:58,910 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:58,911 TRACE JdbcUtils 23 getNewConnection - Enter
+12 Mar 2024 11:50:58,911 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db
+12 Mar 2024 11:50:58,912 INFO  JdbcUtils 29 getNewConnection - user: null
+12 Mar 2024 11:50:58,912 INFO  JdbcUtils 30 getNewConnection - pass: null
+12 Mar 2024 11:50:59,177 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:59,190 TRACE CarsDBRepository 87 add - Saved 1 instances
+12 Mar 2024 11:50:59,191 TRACE CarsDBRepository 92 add - Exit
+12 Mar 2024 11:50:59,191 TRACE CarsDBRepository 102 findAll - Enter
+12 Mar 2024 11:50:59,192 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:59,192 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:59,193 TRACE CarsDBRepository 121 findAll - Exit with([Id=1 Dacia Sandero 2019, Id=2 Skoda Octavia 2020, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2019])
+12 Mar 2024 11:50:59,194 TRACE CarsDBRepository 25 findByManufacturer - Enter Finding cars by manufactured: Tesla
+12 Mar 2024 11:50:59,194 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:50:59,195 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:50:59,195 TRACE CarsDBRepository 45 findByManufacturer - Exit with([Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2019])
+12 Mar 2024 11:51:38,760 INFO  CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db} 
+12 Mar 2024 11:51:38,775 TRACE CarsDBRepository 80 add - Enter saving task Id=0 Tesla Model S 2019
+12 Mar 2024 11:51:38,776 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:51:38,776 TRACE JdbcUtils 23 getNewConnection - Enter
+12 Mar 2024 11:51:38,776 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/cars.db
+12 Mar 2024 11:51:38,777 INFO  JdbcUtils 29 getNewConnection - user: null
+12 Mar 2024 11:51:38,777 INFO  JdbcUtils 30 getNewConnection - pass: null
+12 Mar 2024 11:51:39,065 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:51:39,074 TRACE CarsDBRepository 87 add - Saved 1 instances
+12 Mar 2024 11:51:39,075 TRACE CarsDBRepository 92 add - Exit
+12 Mar 2024 11:51:39,075 TRACE CarsDBRepository 102 findAll - Enter
+12 Mar 2024 11:51:39,076 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:51:39,076 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:51:39,077 TRACE CarsDBRepository 121 findAll - Exit with([Id=1 Dacia Sandero 2019, Id=2 Skoda Octavia 2020, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2019, Id=5 Tesla Model S 2019])
+12 Mar 2024 11:51:39,078 TRACE CarsDBRepository 25 findByManufacturer - Enter Finding cars by manufactured: Tesla
+12 Mar 2024 11:51:39,078 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2024 11:51:39,079 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2024 11:51:39,079 TRACE CarsDBRepository 45 findByManufacturer - Exit with([Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2019, Id=5 Tesla Model S 2019])
+12 Mar 2025 10:08:13,112 INFO  CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/anul2_lab_inclass/cars.db} 
+12 Mar 2025 10:08:13,139 TRACE CarsDBRepository 80 add - Enter saving task Id=0 Tesla Model S 2019
+12 Mar 2025 10:08:13,141 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2025 10:08:13,141 TRACE JdbcUtils 23 getNewConnection - Enter
+12 Mar 2025 10:08:13,142 INFO  JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/georg/OneDrive/Desktop/MPP/anul2_lab_inclass/cars.db
+12 Mar 2025 10:08:13,143 INFO  JdbcUtils 29 getNewConnection - user: null
+12 Mar 2025 10:08:13,144 INFO  JdbcUtils 30 getNewConnection - pass: null
+12 Mar 2025 10:08:13,838 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2025 10:08:13,852 TRACE CarsDBRepository 87 add - Saved 1 instances
+12 Mar 2025 10:08:13,853 TRACE CarsDBRepository 92 add - Exit
+12 Mar 2025 10:08:13,854 TRACE CarsDBRepository 102 findAll - Enter
+12 Mar 2025 10:08:13,854 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2025 10:08:13,855 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2025 10:08:13,857 TRACE CarsDBRepository 121 findAll - Exit with([Id=1 Dacia Sandero 2019, Id=2 Skoda Octavia 2020, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2019, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019])
+12 Mar 2025 10:08:13,858 TRACE CarsDBRepository 25 findByManufacturer - Enter Finding cars by manufactured: Tesla
+12 Mar 2025 10:08:13,859 TRACE JdbcUtils 46 getConnection - Enter
+12 Mar 2025 10:08:13,859 TRACE JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@231f98ef)
+12 Mar 2025 10:08:13,861 TRACE CarsDBRepository 45 findByManufacturer - Exit with([Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2019, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019])
